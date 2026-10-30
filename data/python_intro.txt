@@ -1,0 +1,198 @@
+# Introduction to Python Programming
+
+## 1. What is Python?
+
+Python is a high-level, interpreted, general-purpose programming language. It is known for its simple syntax, readability and large ecosystem of libraries.
+
+Python is widely used in:
+- Web development.
+- Artificial Intelligence.
+- Machine Learning.
+- Data Science.
+- Automation.
+- Backend development.
+
+## 2. Features of Python
+
+- Easy to learn and read.
+- Interpreted programming language.
+- Dynamically typed.
+- Supports object-oriented programming.
+- Large collection of libraries.
+- Cross-platform compatibility.
+- Open-source programming language.
+
+## 3. Python Variables
+
+Variables are used to store data.
+
+Example:
+
+name = "Harsh"
+age = 21
+height = 5.9
+is_student = True
+
+Python does not require explicit variable type declarations.
+
+## 4. Python Data Types
+
+Common built-in data types include:
+
+- int: Integer values.
+- float: Decimal values.
+- str: Text values.
+- bool: True or False.
+- list: Ordered and mutable collection.
+- tuple: Ordered and immutable collection.
+- set: Collection of unique elements.
+- dict: Key-value pairs.
+
+Example:
+
+age = 21
+price = 99.5
+name = "Python"
+numbers = [1, 2, 3]
+coordinates = (10, 20)
+unique_values = {1, 2, 3}
+student = {"name": "Harsh", "age": 21}
+
+## 5. Conditional Statements
+
+Conditional statements execute code based on conditions.
+
+Example:
+
+age = 18
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+Python supports:
+- if
+- elif
+- else
+
+## 6. Loops
+
+Loops are used to execute statements repeatedly.
+
+### For Loop
+
+for i in range(5):
+    print(i)
+
+### While Loop
+
+count = 0
+
+while count < 5:
+    print(count)
+    count += 1
+
+## 7. Functions
+
+Functions are reusable blocks of code.
+
+Example:
+
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+print(result)
+
+## 8. Object-Oriented Programming
+
+Python supports object-oriented programming.
+
+Important concepts:
+- Class: A blueprint for creating objects.
+- Object: An instance of a class.
+- Inheritance: Reusing properties and methods of another class.
+- Encapsulation: Bundling data and methods together.
+- Polymorphism: Using a common interface for different implementations.
+- Abstraction: Hiding implementation details.
+
+Example:
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def display(self):
+        print(self.name)
+
+student = Student("Harsh")
+student.display()
+
+## 9. Exception Handling
+
+Exception handling prevents programs from crashing unexpectedly.
+
+Example:
+
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except ValueError:
+    print("Please enter a valid number")
+
+## 10. Python Modules and Libraries
+
+A module is a Python file containing reusable code.
+
+A library is a collection of modules and functionality.
+
+Example:
+
+import math
+
+print(math.sqrt(25))
+
+Popular Python libraries:
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Flask
+- Django
+- TensorFlow
+- PyTorch
+
+## 11. File Handling
+
+Python allows reading and writing files.
+
+Example:
+
+with open("example.txt", "w") as file:
+    file.write("Hello Python")
+
+Reading a file:
+
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+## 12. Python in AI and Machine Learning
+
+Python is one of the most popular programming languages for AI and ML because of its extensive ecosystem.
+
+Important libraries:
+
+- NumPy: Mathematical operations.
+- Pandas: Data processing.
+- Scikit-learn: Machine learning.
+- TensorFlow: Deep learning.
+- PyTorch: Neural networks.
+- LangChain: Building applications using language models.
+
+## Conclusion
+
+Python is a versatile programming language used in software development, automation, data science and artificial intelligence. Learning Python fundamentals provides a strong foundation for working with machine learning and modern AI applications.

@@ -1,0 +1,112 @@
+# Introduction to Machine Learning
+
+## 1. What is Machine Learning?
+
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task.
+
+Instead of writing rules manually, developers train machine learning models using datasets.
+
+For example:
+- Predicting house prices based on location and size.
+- Detecting spam emails.
+- Recommending movies based on user preferences.
+- Predicting customer behavior.
+
+## 2. Types of Machine Learning
+
+### A. Supervised Learning
+
+Supervised learning uses labeled datasets. Each training example contains input data and its correct output.
+
+Examples:
+- Predicting house prices.
+- Email spam classification.
+- Student result prediction.
+
+Common algorithms:
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Random Forest
+- Support Vector Machines (SVM)
+
+### B. Unsupervised Learning
+
+Unsupervised learning uses unlabeled data. The model identifies hidden patterns and structures.
+
+Examples:
+- Customer segmentation.
+- Grouping similar documents.
+- Finding unusual patterns in transactions.
+
+Common algorithms:
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+- Principal Component Analysis (PCA)
+
+### C. Reinforcement Learning
+
+Reinforcement learning involves an agent learning through interaction with an environment.
+
+The agent receives rewards for good actions and penalties for poor actions.
+
+Examples:
+- Game-playing AI.
+- Robotics.
+- Autonomous navigation.
+
+## 3. Important Machine Learning Terminology
+
+- Dataset: A collection of data used for training and testing.
+- Features: Input variables used by a model.
+- Labels: Expected output values.
+- Model: A mathematical system that learns patterns from data.
+- Training: The process of teaching a model using data.
+- Testing: Evaluating a trained model on unseen data.
+- Accuracy: The percentage of correct predictions.
+- Overfitting: When a model memorizes training data and performs poorly on new data.
+- Underfitting: When a model fails to learn important patterns.
+
+## 4. Machine Learning Workflow
+
+1. Collect data.
+2. Clean and preprocess data.
+3. Select relevant features.
+4. Split data into training and testing datasets.
+5. Choose a suitable algorithm.
+6. Train the model.
+7. Evaluate model performance.
+8. Improve and deploy the model.
+
+## 5. Popular Python Libraries for Machine Learning
+
+- NumPy: Numerical computations.
+- Pandas: Data manipulation and analysis.
+- Matplotlib: Data visualization.
+- Seaborn: Statistical visualization.
+- Scikit-learn: Traditional machine learning algorithms.
+- TensorFlow: Deep learning.
+- PyTorch: Deep learning and neural networks.
+
+## 6. Difference Between AI, ML and Deep Learning
+
+Artificial Intelligence is the broader field of creating intelligent systems.
+
+Machine Learning is a subset of AI that enables systems to learn from data.
+
+Deep Learning is a subset of machine learning that uses multi-layered neural networks.
+
+## 7. Applications of Machine Learning
+
+- Healthcare prediction.
+- Fraud detection.
+- Recommendation systems.
+- Natural Language Processing.
+- Computer Vision.
+- Financial forecasting.
+- Autonomous vehicles.
+
+## Conclusion
+
+Machine Learning allows computers to learn from data and improve their performance through experience. It is an important technology behind modern AI applications.
